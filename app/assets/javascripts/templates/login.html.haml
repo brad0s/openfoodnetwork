@@ -30,6 +30,7 @@
     .row
       .large-12.columns
         %input{name: "remember_me",
+        tabindex: "3",
         type: "checkbox",
         id: "remember_me",
         value: "1",
@@ -38,7 +39,7 @@
     .row
       .large-12.columns
         %input.button.primary{name: "commit",
-          tabindex: "3",
+          tabindex: "4",
           type: "submit",
           value: "{{'label_login' | t}}"}
 :javascript
